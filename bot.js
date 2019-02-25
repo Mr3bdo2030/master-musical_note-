@@ -326,7 +326,7 @@ client.on('message', message => {
         .addField('queue', 'اظهار قائمة التشغيل')
         .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('(general_commands) لاظهار الاوامر العامة')
-      message.channel.send(helpEmbed);
+      message.channel.send(help);
     }
 });
 
@@ -338,7 +338,7 @@ client.on('message', message => {
         .addField('gif', 'البحث عن جيف انت تطلبه')
         .addField('ping', 'معرفة ping البوت')
         .setFooter('المزيد قريبا ان شاء الله!')
-      message.channel.send(helpEmbed);
+      message.channel.send(help);
     }
 });
 
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : دوخي ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`2play | Explotion`,"http://twitch.tv/Death Shop")
+client.user.setGame(`2play | Explotion صيانة`,"http://twitch.tv/Death Shop")
 client.user.setStatus("dnd")
 });
 
