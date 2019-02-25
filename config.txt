@@ -1,0 +1,6 @@
+owner=353998139998601217
+prefix=M
+game=Break | Mplay
+stayinchannel=true
+songinstatus=true
+token=NTQ5NTY3OTUwNzUxNzkzMTU3.D1WLfg.KxOxQD9XcwYxIHnz1V1JxtLYecQ
