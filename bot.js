@@ -106,17 +106,17 @@ client.on('message', async msg => {
         
         const permissions = voiceChannel.permissionsFor(msg.client.user);
         
-        if (!permissions.has('CONNECT')) {
+        if (!permissions.has('MCONNECT')) {
 
 			return msg.channel.send("ليست لدي صلاحيات للدخول الى الروم");
         }
         
-		if (!permissions.has('SPEAK')) {
+		if (!permissions.has('MSPEAK')) {
 
 			return msg.channel.send("انا لا يمكنني التكلم في هاذه الروم");
 		}
 
-		if (!permissions.has('EMBED_LINKS')) {
+		if (!permissions.has('MEMBED_LINKS')) {
 
 			return msg.channel.sendMessage("انا لا املك صلاحيات ارسال روابط")
 		}
