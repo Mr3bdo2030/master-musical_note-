@@ -316,7 +316,7 @@ client.on('message', message => {
     if (message.content === 'help') {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
-        .setDescription('**برفكس البوت (!)**')
+        .setDescription('**برفكس البوت (2)**')
         .addField('play', 'لتشغيل اغنية')
         .addField('join', 'دخول رومك الصوتي')
         .addField('disconnect', 'الخروج من رومك الصوتي')
@@ -326,7 +326,7 @@ client.on('message', message => {
         .addField('queue', 'اظهار قائمة التشغيل')
         .addField('np', 'اظهار الاغنية اللي انت مشغلها حاليا')
         .setFooter('(general_commands) لاظهار الاوامر العامة')
-      message.channel.send(help);
+      message.channel.send(helpEmbed);
     }
 });
 
@@ -338,7 +338,7 @@ client.on('message', message => {
         .addField('gif', 'البحث عن جيف انت تطلبه')
         .addField('ping', 'معرفة ping البوت')
         .setFooter('المزيد قريبا ان شاء الله!')
-      message.channel.send(help);
+      message.channel.send(helpEmbed);
     }
 });
 
